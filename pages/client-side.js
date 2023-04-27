@@ -19,6 +19,7 @@ const ClientSide = () => {
 
   return (
     <div>
+      <a href="../">Back</a>
       <h1>My name is {data.name}</h1>
     </div>
   );

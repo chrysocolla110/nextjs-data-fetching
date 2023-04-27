@@ -5,6 +5,7 @@ const StaticSite = ({ joke }) => {
 
   return (
     <div className={styles.container}>
+      <a href="../">Back</a>
       <span className={styles.description}>Today's joke:</span>
       <h1 className={styles.title}>{joke}</h1>
     </div>
